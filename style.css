@@ -1,0 +1,166 @@
+/* A Free Design by Bryant Smith (bryantsmith.com) */
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #061c37;
+  background-color: #fcfbef;
+}
+* {
+  margin: 0 auto 0 auto;
+  text-align: left;
+}
+
+#container {
+  display: block;
+  height: auto;
+  position: relative;
+  width: 940px;
+}
+
+#mainpic h1 {
+  position: absolute;
+  text-align: right;
+  font-size: 30px;
+  color: #ab970c;
+  left: 600px;
+  top: 220px;
+}
+
+#mainpic h2 {
+  position: absolute;
+  text-align: right;
+  color: #776906;
+  left: 600px;
+  top: 252px;
+}
+
+#mainpic {
+  background-image: url(images/implementing-artificial-intelligence-part-1-hero.jpg);
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 354px;
+}
+
+.lighter {
+  color: #f2d76a;
+}
+
+#menu {
+  background-image: url(images/menu.png);
+  background-repeat: no-repeat;
+  width: 940px;
+  height: 69px;
+  float: left;
+  clear: both;
+}
+
+#content {
+  width: 880px;
+  height: auto;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+#footer {
+  width: inherit;
+  height: auto;
+}
+
+#footer h3 a,
+#footer h3 a:visited {
+  display: inline;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  color: #f5eb67;
+}
+
+a,
+a:visited {
+  color: #e4ca10;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0px;
+  margin-left: auto;
+  width: 900px;
+}
+
+#menu li {
+  list-style: none;
+  padding: 0px;
+  display: inline;
+}
+
+#menu a,
+#menu a:visited {
+  float: left;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #3c3504;
+  font-weight: bold;
+  padding-top: 16px;
+  font-size: 17px;
+}
+
+#menu a:hover {
+  color: #b39311;
+}
+
+#content p {
+}
+
+html,
+body {
+  text-align: center;
+}
+p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contentImg {
+  width: 100%;
+  height: 265px;
+  object-fit: contain;
+  margin: 2rem 0;
+}
+.historyImg {
+  width: 100%;
+  object-fit: contain;
+  margin: 2rem 0;
+}
+li {
+  margin: 10px 0;
+  font-size: 13px;
+}
+
+table {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 20px 0;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
